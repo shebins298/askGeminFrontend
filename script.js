@@ -5,7 +5,7 @@ async function sendPrompt() {
   responseDiv.innerText = "Loading...";
 
   try {
-    const res = await fetch("https://your-backend-url.onrender.com/generate", {
+    const res = await fetch("https://askgeminibackend-rdq8.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ prompt })
